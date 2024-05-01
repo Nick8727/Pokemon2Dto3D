@@ -1,0 +1,1 @@
+Get the sprites from https://github.com/PokeAPI/sprites and move to here
