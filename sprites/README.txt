@@ -1,1 +1,1 @@
-Get the sprites from https://github.com/PokeAPI/sprites and move to here
+Get the sprites/pokemon from https://github.com/PokeAPI/sprites and move to here
