@@ -55,7 +55,7 @@ pokedex.columns = ["dex_no", "name"]
 df = pd.merge(csv_df, pokedex, left_on="label", right_on="name")
 df = df[df['dex_no'].apply((lambda x: x.is_integer()))]
 df['dex_no'] = df['dex_no'].apply((lambda x: int(x)))
-
+df = df.drop_duplicates("dex_no")
 
 #generating csv
 with open('data_loc.csv', 'w', newline='') as file:
